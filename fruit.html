@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Food & Groceries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111111;
+        }
+        header {
+            background-color: #a05107;
+            color: rgb(240, 240, 240);
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .category {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .category-item {
+            background-color: rgb(250, 248, 246);
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .category-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .category-item h3 {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #333;
+        }
+        .footer {
+            background-color: #ad4b1d;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 10;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Explore Food Items & Groceries</h1>
+        <p>Discover fresh fruits, vegetables, grains, snacks, and more!</p>
+    </header>
+
+    <div class="container">
+        <h2>Our Categories</h2>
+        <div class="category">
+            <!-- Fruits -->
+            <div class="category-item">
+                <img src="https://www.eatingwell.com/thmb/7yI-zK5sxWJL5qVqEFGvDNibAeU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EWL-290638-low-carb-fruits-ranked-from-lowest-to-highest-carbs-hero-b5b3e326f2d141e0bb44e0ca95a83ec1.jpg" alt="Fruits">
+                <h3>Fruits</h3>
+            </div>
+            <!-- Vegetables -->
+            <div class="category-item">
+                <img src="https://mp-engineering.co.uk/wp-content/uploads/2024/03/vegetable-diet-1024x768.png" alt="Vegetables">
+                <h3>Vegetables</h3>
+            </div>
+            <!-- Grains -->
+            <div class="category-item">
+                <img src="https://images.squarespace-cdn.com/content/v1/5b35b18af93fd4d75e591f4a/1543985750553-I04QXF6GJ02X1UWC316A/HS-Website---Seeds%2C-Grains%2C-Paste-%26-Beans.jpg?format=2500w" alt="Grains">
+                <h3>Grains</h3>
+            </div>
+            <!-- Groceries -->
+            <div class="category-item">
+                <img src="https://images.unsplash.com/photo-1607977027972-e2aae2b5b1e0?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwxfHxncm9jZXJ5JTIwcHJvZHVjdHN8ZW58MHx8fHwxNzE2MTA2OTk1fDA&ixlib=rb-4.0.3&auto=format&fit=crop&w=1920" alt="Groceries">
+                <h3>Groceries</h3>
+            </div>
+            <!-- Snacks -->
+            <div class="category-item">
+                <img src="https://www.eatingwell.com/thmb/t963s-_JWzHMyPlxHUXM9EFjb_I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1149135424-377d295fd8f24168ae2d1b818295a819.jpg" alt="Snacks">
+                <h3>Snacks</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Food & Grocery Store. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

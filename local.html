@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+        }
+        header {
+            background-color: #ca672e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .gallery-item h3 {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .footer {
+            background-color: #ad621b;
+            color: white;
+            text-align: center;
+            padding: 1px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 10;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Local Community Gallery</h1>
+        <p>Explore some local households, food stalls, food banks, events, parties, and cafes.</p>
+    </header>
+
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <!-- Gallery Items -->
+            <div class="gallery-item">
+                <img src="https://i0.wp.com/www.manjulikapramod.com/wp-content/uploads/2017/03/Eating-in-a-locals-house.jpg?fit=800%2C534&ssl=1" alt="Local Household 1">
+                <h3>Local Household</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACtuV92mnQ00LRoe6Pidxc7yE0i8W4L3FSHG-Qrc-Xmd6v9GgBMuuTIAoUfCbUuZzTQY&usqp=CAU" alt="Food Stall 1">
+                <h3>Food Stall</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6C0m1dQ3sbPKNz0_3JVkVw965c9Eu6VoZGg&s" alt="Food Bank 1">
+                <h3>Food Bank</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.prod.website-files.com/63d06722a6f6c82db2e3292f/66226d32f51bec36b0e2b8c4_4th%20of%20July%20barbecue%20scene%20group%20of%20friends%20or%20family%20enjoying%20the%20food%20and%20company.jpeg" alt="Event 1">
+                <h3>Event</h3>
+            </div>
+        
+            <div class="gallery-item">
+                <img src="https://surenspace.com/wp-content/uploads/2024/05/SUREN-SPACE-BANNER-10-Low-Budget-Small-Cafe-Interior-Design-Ideas-to-Attract-More-CustomerS.webp" alt="Cafe 1">
+                <h3>Cafe</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Local Community Gallery. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

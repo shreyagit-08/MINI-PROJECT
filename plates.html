@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Plates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 100;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+           
+            color: white;
+            padding: 4cm 70;
+            
+        }
+        header h1 {
+            font-size: 7em;
+            margin: 500;
+            gap:10px;
+        }
+        
+        
+        .container {
+            padding: 140px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+        .card {
+           
+            margin: 85px 0;
+            padding: 25px;
+            background: white;
+            border: 3px solid #ce5d31;
+            border-radius: 6px;
+        }
+        a {
+            display: inline-block;
+            padding: 7px 20px;
+            margin: 0px;
+            background: #ee4f1e;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        a:hover {
+            background: #e64a19;
+        }
+        input, select {
+            width: 90%;
+            padding: 10px;
+            margin: 15px 0;
+            border: 5px solid #ce5d41;
+            border-radius: 3px;
+        }
+        button {
+            width: 90%;
+            padding: 20px;
+            background: #ec5d31;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #e64a19;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #e22929;
+            BORDER: 5px rgb(243, 21, 21);
+            border-radius: 4px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Home Page -->
+    <header>
+        <h1>HOPE PLATES</h1>
+        <Body background="hope.png" ></body>
+        
+            
+        
+        <a href="#REGISTRATION">Get Started</a>
+    </header>
+
+    <!-- Registration Page -->
+    <div class="container" id="REGISTRATION">
+        <div class="card">
+            <h2>REGISTER</h2>
+            <form action="#">
+                <input type="text" placeholder="Full Name" required>
+                <input type="text" placeholder="Mobile Number" required>
+                <input type="text" placeholder="Address" required>
+                <label for="language">Preferred Language:</label>
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="bn">Bengali</option>
+                    <option value="mr">Marathi</option>
+                    <option value="pa">Punjabi</option>
+                    <option value="bho">Bhojpuri</option>
+                </select>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Food Source Selection Page -->
+    <div class="container">
+        <div class="card">
+            <h2>SELECT FOOD SOURCE</h2>
+            <a href="local.html">LOCAL HOUSEHOLDS</a>
+            <a href="local.html">NEARBY CAFES </a>
+            <a href="local.html">FOOD STALLS</a>
+            <a href="local.html">FOOD BANKS</a>
+        </div>
+    </div>
+
+    <!-- Food Type Selection Page -->
+    <div class="container">
+        <div class="card">
+            <h2>Select Food or Grocery</h2>
+            <a href="fruit.html">Fruits </a>
+            <a href="fruit.html">Vegetables</a>
+            <a href="fruit.html">Grains</a>
+            <a href="fruit.html">Snacks</a>
+        </div>
+    </div>
+
+    <!-- Customer Care Section -->
+    <div class="container">
+        <div class="card">
+            <h2>Customer Care</h2>
+            <a href="customer.html">customer care service</a>
+            <p>Need help? Call us at <strong>1800-123-456</strong>.</p>
+        </div>
+    </div>
+
+    <footer>
+        
+        <p>&copy; 2024 Hope Plates. All rights reserved.</p>
+    </footer>
+</body>
+</html>
